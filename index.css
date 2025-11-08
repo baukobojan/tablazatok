@@ -20,17 +20,12 @@ td, th {
 tr{
     background-color: lightgray;
 }
-tr:nth-child(2){
-    background-color: lightcoral;
-}
-tr:nth-child(even){
-    background-color: lightblue;
-}
-tr:nth-child(odd){
-    background-color: lightgreen;
+td:nth-child(1){
+    background-color: coral;
+    color: white;
 }
 th {
-    background-color: gray;
+    background-color: coral;
     color: white;
 }
 caption {
